@@ -9,24 +9,22 @@ iwr https://community.chocolatey.org/install.ps1 -UseBasicParsing | iex
 
 ## With Chocolatey ready, copy and run the following tools
 
-```javascript
+```
 choco install git -y
 ```
 
-```javascript
+```
 choco install vscode -y
 ```
 
-```javascript
+```
 choco install docker-desktop -y
 ```
 
 ## Other useful tools
 
 ```
-
 choco install microsoft-windows-terminal -y 
-
 ```
 
 ## Turn on Windows Featurs
