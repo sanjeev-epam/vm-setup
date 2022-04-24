@@ -25,8 +25,10 @@ choco install docker-desktop -y
 
 - TBD
 
-## Turn on Windows Featurs
-(images/turn-windows-features-on-or-off.png)
+## Turn on Windows Features
+
+
+![Windows features](images/turn-windows-features-on-or-off.png)
 
 
 ## Turn on Options Windows Features
