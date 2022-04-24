@@ -11,8 +11,15 @@ iwr https://community.chocolatey.org/install.ps1 -UseBasicParsing | iex
 
 > choco install vscode -y
 
-> choco install docker-desktop -y
- 
+```choco install docker-desktop -y```
+
+## Usage
+```javascript
+import copyCodeBlock from '@pickra/copy-code-block';
+// OR
+const copyCodeBlock = require('@pickra/copy-code-block');
+```
+
 ## Must have for VSCode:
 
 - Docker
