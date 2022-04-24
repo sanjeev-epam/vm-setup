@@ -7,7 +7,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force;
 iwr https://community.chocolatey.org/install.ps1 -UseBasicParsing | iex
 ```
 
-## With chocolatey ready, do the following
+## With Chocolatey ready, copy and run the following tools
 
 ```javascript
 choco install git -y
@@ -18,15 +18,20 @@ choco install vscode -y
 ```
 
 ```javascript
-choco install docker-desktop -y```
+choco install docker-desktop -y
 ```
 
-## Usage
-```javascript
-import copyCodeBlock from '@pickra/copy-code-block';
-// OR
-const copyCodeBlock = require('@pickra/copy-code-block');
+## Other useful tools
+
 ```
+
+choco install microsoft-windows-terminal -y 
+
+```
+
+## Turn on Windows Featurs
+
+## Turn on Options Windows Features
 
 ## Must have for VSCode:
 
