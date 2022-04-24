@@ -1,3 +1,3 @@
 # Example of Gif
 
-![installing...](images/install.gif)
+![installing...](/images/Install.gif)
