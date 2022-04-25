@@ -23,6 +23,8 @@ choco install docker-desktop -y
 
 ## Docker version is important
 
+Yet to find the details of what are the issues with the most recent Docker Desktop Version. But it is better to use 4.6.0 for now.
+
 ```
 choco install docker-desktop --version=4.6.0 -y
 ```
@@ -37,7 +39,9 @@ choco install docker-desktop --version=4.6.0 -y
 
 ![Windows features](images/turn-windows-features-on-or-off.png)
 
-## Optional featurs to be enabled
+## Enable optional featurs on Windows
+
+This will make sure Windows Containers can be enabled on Docker Desktop
 
 ```
 Enable-WindowsOptionalFeature -Online -FeatureName $("Microsoft-Hyper-V", "Containers") -All
