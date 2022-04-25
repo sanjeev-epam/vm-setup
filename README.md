@@ -37,6 +37,11 @@ choco install docker-desktop --version=4.6.0 -y
 
 ![Windows features](images/turn-windows-features-on-or-off.png)
 
+## Optional featurs to be enabled
+
+```
+Enable-WindowsOptionalFeature -Online -FeatureName $("Microsoft-Hyper-V", "Containers") -All
+```
 
 ## Turn on Options Windows Features
 
