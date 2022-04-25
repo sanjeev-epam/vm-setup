@@ -21,6 +21,13 @@ choco install vscode -y
 choco install docker-desktop -y
 ```
 
+## Docker version is important
+
+```
+choco install docker-desktop --version=4.6.0 -y
+```
+
+
 ## Other useful tools
 
 - TBD
