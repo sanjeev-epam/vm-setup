@@ -89,4 +89,4 @@ docker system prune -a
 ```
 To uninstall and clean a previous version
 
-[Zap Docker](https://github.com/moby/docker-ci-zap)
+<a href="https://github.com/moby/docker-ci-zap" target="_blank">Zap Docker</a>
