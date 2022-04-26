@@ -36,7 +36,6 @@ choco install docker-desktop --version=4.6.0 -y
 
 ## Turn on Windows Features
 
-
 ![Windows features](images/turn-windows-features-on-or-off.png)
 
 ## Enable optional featurs on Windows
@@ -47,9 +46,7 @@ This will make sure Windows Containers can be enabled on Docker Desktop
 Enable-WindowsOptionalFeature -Online -FeatureName $("Microsoft-Hyper-V", "Containers") -All
 ```
 
-## Turn on Options Windows Features
-
-## Must have for VSCode:
+## Must have Extentions for VSCode
 
 - Docker
 - ESLint
@@ -62,3 +59,19 @@ Enable-WindowsOptionalFeature -Online -FeatureName $("Microsoft-Hyper-V", "Conta
 - Trailing Spaces
 - TypeScript Hero
 - YAML
+
+## Configure Windows to have a large Page File
+
+Careful, do not make it too large. Run the following in a windows run "type here to search". When the service appears right click and run as an Administrator
+
+```
+SystemPropertiesAdvanced
+```
+
+Click on "Advance" > "Change" (Virtual Memory) >  
+
+## Install MkCert
+
+```
+choco install mkcert -y
+```
