@@ -45,6 +45,12 @@ This will make sure Windows Containers can be enabled on Docker Desktop
 ```
 Enable-WindowsOptionalFeature -Online -FeatureName $("Microsoft-Hyper-V", "Containers") -All
 ```
+or, if no restart condition is needed.
+
+```
+Enable-WindowsOptionalFeature -Online -FeatureName $("Microsoft-Hyper-V", "Containers") -All -NoRestart
+```
+
 
 ## Must have Extentions for VSCode
 
@@ -75,3 +81,12 @@ Click on "Advance" > "Change" (Virtual Memory) >
 ```
 choco install mkcert -y
 ```
+
+## Docker cleanup
+
+```
+docker system prune -a
+```
+To uninstall and clean a previous version
+
+[Zap Docker](https://github.com/moby/docker-ci-zap)
