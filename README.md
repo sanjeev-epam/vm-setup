@@ -1,13 +1,15 @@
 # My Azure Virtual Machine Setup
 
-## Run the following block in an elevated PowerShell console
+## Install Chocolatey
+
+Run the ollowing block in an elevated PowerShell console
 ```javascript
 Set-ExecutionPolicy Bypass -Scope Process -Force; 
 [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; 
 iwr https://community.chocolatey.org/install.ps1 -UseBasicParsing | iex
 ```
 
-## Chocolatey is ready to use. Run the following to install the essential tools
+## Install essential tools
 
 ```
 choco install git -y
@@ -21,9 +23,9 @@ choco install vscode -y
 choco install docker-desktop -y
 ```
 
-## Docker version is important
+## Docker version
 
-Yet to find the details of what are the issues with the most recent Docker Desktop Version. But it is better to use 4.6.0 for now.
+Yet to find the details of what are the issues with the most recent Docker Desktop Version. But it is better to use 4.6.0 for Sitecore.Demo.Platform.
 
 ```
 choco install docker-desktop --version=4.6.0 -y
