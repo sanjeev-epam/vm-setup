@@ -2,7 +2,7 @@
 
 ## Install Chocolatey
 
-Run the ollowing block in an elevated PowerShell console
+Run the following block in an elevated PowerShell console
 ```javascript
 Set-ExecutionPolicy Bypass -Scope Process -Force; 
 [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; 
